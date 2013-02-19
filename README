@@ -1,0 +1,23 @@
+#############################################################################################
+#############################################################################################
+#############################################################################################
+
+AUTHOR: Alex Djalali 
+COMPANY: Stanford University
+EMAIL: alex.djalali@gmail.com
+WEBSITE: http://www.stanford.edu/~djalali/
+
+#############################################################################################
+#############################################################################################
+#############################################################################################
+
+This is the python implementation to the set-theoretic solution I give for the
+ranking problem in Partial Order Optimality Theory, which can be stated as
+follows: Allowing for free variation, given a finite set of input/output pairs,
+i.e., a dataset, that a speaker knows to be part of some language, how can
+learn the set of all grammars under some constraint set compatible with that
+dataset? 
+
+#############################################################################################
+#############################################################################################
+#############################################################################################
