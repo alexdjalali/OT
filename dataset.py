@@ -1,5 +1,5 @@
 import itertools
-from ..ordertheory import ordertheory
+import ordertheory
 
 class DataSet(object):
     """Construct Dataset object."""
@@ -111,7 +111,11 @@ class ComparativeDataSet(DataSet):
                 win.append(n)
             elif dict0[n] > dict1[n]:
                 lose.append(n)
-        return {'win': win, 'lose': lose}
+        if lose == []:
+            hbounded = True
+        else:
+            hbounded = False
+        return {'win': win, 'lose': lose, 'hbounded': hbounded}
 
     def __init_cdset(self, dset):
 
@@ -152,6 +156,7 @@ class ComparativeInfo(object):
         self.info = dict0
         self.win = dict0['win']
         self.lose = dict0['lose']
+        self.hbounded = dict0['hbounded']
 
 #################################################################################################
 #################################################################################################

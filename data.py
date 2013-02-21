@@ -1,3 +1,19 @@
+sample0 = [
+                {   'input': 'ovea',
+                    'output': 'o.ve.a',
+                    'vvector': {1:0, 2:1, 3:1, 4:0},
+                    'optimal': False,
+                },
+
+                {
+                    'input': 'ovea',
+                    'output': 'o.vee',
+                    'vvector': {1:1, 2:1, 3:1, 4:1},
+                    'optimal': False,
+                },
+
+        ]
+
 voweldset = [
                 {   'input': 'ovea',
                     'output': 'o.ve.a',
